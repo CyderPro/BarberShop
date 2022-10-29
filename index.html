@@ -5,37 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>FS73</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>FS73</title>
   </head>
   <body>
-    <header>
+    <header class="header">
       <a href="#" class="logo">
         <img src="./images/Logo.svg" alt="" />
       </a>
       <nav>
-        <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services and prices</a></li>
-          <li><a href="#">Barbers</a></li>
-          <li><a href="#">Contacts</a></li>
+        <ul class="header-nav">
+          <li><a class="header-nav-link" href="#">About</a></li>
+          <li><a class="header-nav-link" href="#">Services and prices</a></li>
+          <li><a class="header-nav-link" href="#">Barbers</a></li>
+          <li><a class="header-nav-link" href="#">Contacts</a></li>
         </ul>
       </nav>
-      <a href="tel:+380441111111">+38 044 111 11 11</a>
-      <button type="button">Online-booking</button>
+      <a class="header-contact" href="tel:+380441111111">+38 044 111 11 11</a>
+      <button class="header-btn" type="button">Online-booking</button>
     </header>
 
     <main>
-      <!-- Hero -->
-      <section>
-        <span>A hair salon for men in Kyiv</span>
-        <h1>BarberShop</h1>
-        <p>
+      <!-- Hero --> 
+      <section class="hero">
+        <span class="uptitle">A hair salon for men in Kyiv</span>
+        <h1 class="hero-title">BarberShop</h1>
+        <p class="hero-subtitle">
           We are experts in trendy men’s haircuts. We work quickly, carefully
           and with style.
         </p>
       </section>
       <!-- Секція 2 -->
       <section>
-        <ul>
+        <ul class="link">
           <li>
             <img src="./images/best1.jpg" width="270" height="455" alt="best" />
           </li>
@@ -44,7 +49,7 @@
           </li>
         </ul>
         <span>About</span>
-        <h2>Best Barbershop in your city</h2>
+        <h2 class="section-title">Best Barbershop in your city</h2>
         <p>
           If you want to add more confidence to your image, you should
           definitely visit us.
@@ -61,7 +66,7 @@
       <section>
         <span>Spend your time with the best masters</span>
         <h2>Services and prices</h2>
-        <ul>
+        <ul class="link">
           <li>
             <p>Men’s haircut</p>
             <span>from 300 uah.</span>
@@ -79,7 +84,7 @@
             <span>from 200 uah.</span>
           </li>
         </ul>
-        <ul>
+        <ul class="link">
           <li>
             <p>Trainee’s haircut</p>
             <span>from 50 uah.</span>
@@ -101,7 +106,7 @@
       </section>
       <!-- Секція 4 -->
       <section>
-        <ul>
+        <ul class="link">
           <li>
             <span>600</span> <sup>+</sup>
             <p>Satisfied customers per day</p>
@@ -121,7 +126,7 @@
         </ul>
         <div>
           <span>Old traditional school</span>
-          <h2>¿Why people come to us?</h2>
+          <h2 class="section-title">¿Why people come to us?</h2>
           <p>
             Only good things are said about us. But it's better to see and feel
             1 time than read 10 times.
@@ -131,8 +136,8 @@
       <!-- Секція наші стригуни -->
       <section>
         <span>For true enjoyers of the atmosphere</span>
-        <h2>Our barbers</h2>
-        <ul>
+        <h2 class="section-title">Our barbers</h2>
+        <ul class="link">
           <li>
             <img
               src="./images/john_smith.jpg"
@@ -184,7 +189,7 @@
       <section>
         <span>In Latin, "barba" means "beard"</span>
         <h2 hidden>Portfolio</h2>
-        <ul>
+        <ul class="link">
           <li>
             <img
               src="./images/beard1.jpg"
@@ -223,7 +228,7 @@
       <section>
         <h2>Contacts</h2>
         <address>
-          <ul>
+          <ul class="link">
             <li>
               <a
                 href="https://goo.gl/maps/jrmYPniDLKyw7SMY7"
@@ -246,7 +251,7 @@
     </main>
     <footer>
       &#169; Copyright 2020
-      <ul>
+      <ul class="link">
         <li>
           <a href="#" target="_blank" rel="noopener noreferrer">Instagram</a>
         </li>
