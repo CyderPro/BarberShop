@@ -9,14 +9,22 @@
     padding: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
 
 body {
     font-family: 'Open Sans', sans-serif;
 }
 
-/* .link {
+.link {
     list-style: none;
-} */
+}
 
 ul {
     list-style: none;
@@ -31,28 +39,25 @@ ul {
     color: #303030;
 }
 
+/* ---------------------- HEADER ------------------------------- */
+
 .header {
     background-color: rgb(58, 189, 98);
 }
 
 .header a {
     font-weight: 600;
-        font-size: 12px;
-        line-height: 1.3333;
-        letter-spacing: 0.1em;
-        color: #FFFFFF;
+    font-size: 12px;
+    line-height: 1.3333;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
     text-decoration: none;
 }
-
-.logo {}
 
 .header-nav {
     list-style: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    margin: 0;
-}
 
 .header-nav-link {
     /* font-weight: 600;
@@ -80,30 +85,34 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .header-btn {
+    font-family: inherit;
     font-weight: 600;
     font-size: 12px;
-    line-height: 16px;
+    line-height: 1.33;
     letter-spacing: 0.09em;
     text-transform: uppercase;
     color: #FFFFFF;
     border: none;
     border: 1px solid #FF6C00;
     border-radius: 25px;
+    cursor: pointer;
 }
  /* line-height / font-size =  */
 
- .uptitle {
-    font-weight: 600;
-    font-size: 11px;
-    line-height: 15px;  
-    text-transform: uppercase;  
-    color: var(--color-grey);
- }
+/* -------------------- MAIN ----------------------------- */
 
 .hero {
     background-image: url(../images/hero.jpg);
 }
-.hero .uptitle {
+
+hero-uptitle {
+     font-weight: 600;
+     font-size: 11px;
+     line-height: 15px;
+     text-transform: uppercase;
+     color: var(--color-grey);
+ }
+.hero .hero-uptitle {
     color: rgba(157, 164, 189, 0.6);
 }
 
